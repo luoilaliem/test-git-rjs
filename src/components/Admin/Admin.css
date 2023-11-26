@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+   background-color: aliceblue;
+}
+.sidebar{
+    position: static;
+    top: 0;
+    left: 40px;
+    height: 100%;
+    width: 300px;
+    padding: 10px 14px;
+    background:aliceblue;
+    display: inline-block;
+    /* transition: var(--tran-05); */
+    /* z-index: 100;   */
+}
+.sidebar li{
+    height: 50px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.sidebar .text{
+    color:darkslategray;
+    transition: var(--tran-03);
+}
+.sidebar .labels{
+    color:black;
+    transition: var(--tran-03);
+}
+.sidebar .text{
+    font-size: 17px;
+    font-weight: 500;
+    white-space: nowrap;
+    opacity: 1;
+}
+.sidebar li a{
+    list-style: none;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: var(--tran-03);
+}
+
+.sidebar .menu{
+    margin-top: 40px;
+}
+.headers{
+    display:flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 500;
+    white-space: nowrap;
+    opacity: 1;
+    color: blue;
+}
+.home{
+    width: 100%;
+    display: inline-block;
+    margin-top: 90px;
+    margin-right: 10px;
+}
+
+.table {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    border-top:1px solid #634b4b;
+    border-bottom:1px solid #634b4b;
+    border-collapse:collapse;
+    background-color: white;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+       "Helvetica Neue", Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    .table-body {
+       display: flex;
+       width: 100%;
+       color: black;
+       flex-wrap: wrap;
+    }
+    .table-header {
+       background-color:aliceblue;
+       color:#36304a;
+       width: 100%;
+       .column:hover {
+          background-color: #484848;
+          font-weight: 500;
+       }
+    }
+    .row {
+       display: inline-flex;
+       width: 100%;
+       box-sizing: border-box;
+       border-top:1px solid #756969;
+    border-bottom:1px solid #756969;
+    }
+    .column {
+       width: 25%;
+       padding: 10px;
+       text-align: center;
+    }
+    .icon {
+       background: transparent;
+       border: none;
+       width: 35px;
+       height: 35px;
+       margin: 0px;
+       padding: 0px;
+       font-size: 20px;
+    }
+ }
+ .form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+       "Helvetica Neue", Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    fieldset {
+       margin: 0;
+       padding: 0.35em 0 0.75em;
+       border: 0;
+       .field {
+          margin-bottom: 0.5em;
+          box-sizing: border-box;
+          label {
+             text-align: right;
+             display: inline-block;
+             vertical-align: middle;
+             margin: 0 1em 0 0;
+             width: 250px;
+             text-align: center;
+          }
+          input {
+             padding: 0.5em 0.6em;
+             display: inline-block;
+             border: 1px solid #ccc;
+             box-shadow: inset 0 1px 3px #ddd;
+             border-radius: 4px;
+             vertical-align: middle;
+             box-sizing: border-box;
+             width: 400px;
+          }
+       }
+    }
+    button {
+       background-color: #0078e7;
+       color: #fff;
+       font-size: 100%;
+       padding: 0.5em 1em;
+       border: 1px solid #999;
+       border: transparent;
+       text-decoration: none;
+       border-radius: 2px;
+    }
+ }
+ @keyframes blinking {
+    0% {
+       background-color: #0078e7;
+    }
+    100% {
+       background-color: #36304a;
+       color: white;
+    }
+ }
+ .updating {
+    animation: blinking 1s infinite;
+ }
+.MainContain{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    
+    padding-right: 100px;
+}
+.rowss{
+   width: 100%;
+    display: flex;
+}
+.container{
+   display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
